@@ -11,3 +11,16 @@
 
 ### Hint:
 * To handle the file uploading you should use the [multer](https://www.npmjs.com/package/multer) npm package.
+
+
+### Results:
+
+#### Glitch
+
+[https://brindle-baroness.glitch.me](https://brindle-baroness.glitch.me)
+
+
+
+#### GitHub
+
+[https://github.com/thembones79/boilerplate-project-filemetadata](https://github.com/thembones79/boilerplate-project-filemetadata)

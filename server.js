@@ -22,8 +22,10 @@ app.get("/hello", function(req, res) {
 
 app.post("/api/fileanalyse", upload.single("upfile"), function(req, res, next) {
   var obj = {};
-  obj.size = req.file.size;
-  res.json({ result: req.file });
+  (obj.name = req.file.originalname),
+    (obj.type = req.file.mimetype),
+    (obj.size = req.file.size);
+  res.json(obj);
 });
 
 app.listen(process.env.PORT || 3000, function() {
