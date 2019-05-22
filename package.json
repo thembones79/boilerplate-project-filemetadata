@@ -1,5 +1,6 @@
 {
 	"name": "file_metadata",
+	"author": "Michał Szumnarski",
 	"version": "0.0.1",
 	"description": "API project for freeCodeCamp",
 	"main": "server.js",
@@ -8,10 +9,11 @@
 	},
 	"dependencies": {
 		"express": "^5.0.0-alpha.2",
-		"cors": "^2.8.1"
+		"cors": "^2.8.5",
+		"multer": "^1.4.1"
 	},
 	"engines": {
-		"node": "4.4.5"
+		"node": "10.15.3"
 	},
 	"repository": {
 		"type": "git",
